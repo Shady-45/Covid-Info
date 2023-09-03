@@ -5,7 +5,7 @@ const Navbar = () => {
     
     <nav className='flex items-center px-4  justify-between md:px-[5rem]  '>
       <Link to='/'>
-        <h1 className='font-bold  text-2xl p-4  '>Covid-19 Tracker</h1>
+        <h1 className='font-bold  text-2xl p-4  '>Covid Tracker</h1>
       </Link>
    
    <ul className='flex items-center font-extrabold gap-4'> 

@@ -15,7 +15,7 @@ const Contacts = () => {
     
     const dispatch = useAppDispatch()
    const contacts = useAppSelector(state =>state.contact.contacts)
-   const isEditable = useAppSelector(state =>state.modal.isEditable)
+   
    const editableStatus = useAppSelector(state =>state.contact.editableStatus)
    const isOpen = useAppSelector(state => state.modal.isOpen)
    
