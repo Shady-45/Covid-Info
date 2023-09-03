@@ -1,6 +1,6 @@
-# Covid-19 Tracker
+# Covid Info
 
-Covid-19 Tracker is a web application built with React.js, TypeScript, and Tailwind CSS that provides COVID-19 data visualization and contact management features.
+Covid Info is a web application built with React.js, TypeScript, and Tailwind CSS that provides COVID-19 data visualization and contact management features.
 
 ## Features
 
