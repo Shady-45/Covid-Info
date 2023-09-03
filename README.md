@@ -37,3 +37,5 @@ Chartjs - chart
 Tailwind Css - styling
 
 ## Deployment
+
+https://covid-info-three.vercel.app/
