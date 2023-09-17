@@ -19,7 +19,7 @@ const Charts = () => {
   const covidQuery = useQuery({
     queryKey: ['covid-19'],
     queryFn: async () => {
-      const res = await fetch('https://disease.sh/v3/covid-19/all');
+      const res = await fetch('https://run.mocky.io/v3/fc74e937-4a0f-476d-80f6-ec6a7823dae6');
       return res.json();
     },
     // onSuccess callback to set the state

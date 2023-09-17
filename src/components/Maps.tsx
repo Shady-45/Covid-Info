@@ -15,7 +15,7 @@ const Maps = () => {
   const mapQuery = useQuery({
     queryKey: ['maps'],
     queryFn: async () => {
-      const data = await fetch('https://disease.sh/v3/covid-19/countries');
+      const data = await fetch('https://run.mocky.io/v3/21287254-88e1-40c0-af89-aebe709a313b');
       return data.json();
     },
   });
