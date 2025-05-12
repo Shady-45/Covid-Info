@@ -19,7 +19,7 @@ const Charts = () => {
   const covidQuery = useQuery({
     queryKey: ['covid-19'],
     queryFn: async () => {
-      const res = await fetch('https://run.mocky.io/v3/fc74e937-4a0f-476d-80f6-ec6a7823dae6');
+      const res = await fetch('https://run.mocky.io/v3/186d32b2-71cc-4bc5-b46d-b2837e07da63');
       return res.json();
     },
     // onSuccess callback to set the state
@@ -30,10 +30,10 @@ const Charts = () => {
           {
             label: 'Covid -19 Data',
             data: [
-              data?.cases,
-              data?.deaths,
-              data?.recovered,
-              data?.active,
+              data?.data?.confirmed,
+              data?.data?.deaths,
+              data?.data?.recovered,
+              data?.data?.active,
             ],
             backgroundColor: [
               'rgba(75, 192, 192, 1)',

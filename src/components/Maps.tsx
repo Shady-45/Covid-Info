@@ -15,7 +15,7 @@ const Maps = () => {
   const mapQuery = useQuery({
     queryKey: ['maps'],
     queryFn: async () => {
-      const data = await fetch('https://run.mocky.io/v3/21287254-88e1-40c0-af89-aebe709a313b');
+      const data = await fetch('https://run.mocky.io/v3/f3b7e976-40c2-4214-b170-192892736aee');
       return data.json();
     },
   });
